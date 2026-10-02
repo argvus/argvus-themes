@@ -1,0 +1,54 @@
+#!/bin/bash
+# ARGVUS themes meta-package
+# Provides convenient installation of all official ARGVUS themes
+
+pkgname=argvus-themes
+pkgver=0.1.0
+pkgrel=1
+pkgdesc="Meta-package for all official ARGVUS themes"
+arch=('any')
+url="https://github.com/argvus/argvus"
+license=('GPL-3.0-only')
+depends=(
+  'argvus-theme-one-dark'
+  'argvus-theme-dracula'
+  'argvus-theme-silver-dark'
+  'argvus-theme-slate-dark'
+  'argvus-theme-universe'
+  'argvus-theme-gruvbox-high-dark'
+  'argvus-theme-gruvbox-dark'
+  'argvus-theme-rose-pine'
+  'argvus-theme-tokyo-night'
+  'argvus-theme-solitude'
+  'argvus-theme-sunset'
+  'argvus-theme-hackerman'
+  'argvus-theme-monokai-dark'
+  'argvus-theme-github-light'
+  'argvus-theme-solarized-light'
+  'argvus-theme-one-light'
+  'argvus-theme-everforest-light'
+  'argvus-theme-catppuccin-latte'
+  'argvus-theme-gruvbox-light'
+)
+makedepends=()
+optdepends=()
+
+package() {
+  mkdir -p "$pkgdir/usr/share/doc/argvus-themes"
+  cat > "$pkgdir/usr/share/doc/argvus-themes/README" << 'EOF'
+# ARGVUS Themes Meta-Package
+
+This meta-package installs all 20 official ARGVUS themes.
+
+Individual themes can be installed separately:
+  pacman -S argvus-theme-dracula
+  pacman -S argvus-theme-rose-pine
+  ...
+
+To list available themes:
+  argvus-appearance themes list
+
+To apply a theme:
+  theme-switch <theme-id>
+EOF
+}
