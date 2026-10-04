@@ -51,6 +51,7 @@ To switch the mode, open **Control Center → Appearance → Mode** and choose *
 | --- | --- | --- |
 | GitHub Light | `argvus-theme-github-light` | `#0969DA` |
 | Solarized Light | `argvus-theme-solarized-light` | `#268BD2` |
+| Nord Light | `argvus-theme-nord-light` | `#5E81AC` |
 | One Light | `argvus-theme-one-light` | `#4078F2` |
 | Everforest Light | `argvus-theme-everforest-light` | `#3A94C5` |
 | Catppuccin Latte | `argvus-theme-catppuccin-latte` | `#1E66F5` |

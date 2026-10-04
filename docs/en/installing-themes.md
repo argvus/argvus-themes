@@ -69,6 +69,7 @@ The packages below are the ones published in the `argvus-themes` repository toda
 | --- | --- |
 | `argvus-theme-github-light` | GitHub Light |
 | `argvus-theme-solarized-light` | Solarized Light |
+| `argvus-theme-nord-light` | Nord Light |
 | `argvus-theme-one-light` | One Light |
 | `argvus-theme-everforest-light` | Everforest Light |
 | `argvus-theme-catppuccin-latte` | Catppuccin Latte |
