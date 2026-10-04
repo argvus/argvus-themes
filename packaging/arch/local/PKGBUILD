@@ -29,6 +29,7 @@ depends=(
   'argvus-theme-everforest-light'
   'argvus-theme-catppuccin-latte'
   'argvus-theme-gruvbox-light'
+  'argvus-theme-nord-light'
 )
 makedepends=()
 optdepends=()
