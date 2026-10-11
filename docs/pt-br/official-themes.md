@@ -42,7 +42,7 @@ Para trocar o modo, abra **Control Center → Aparência → Modo** e escolha **
 | Tokyo Night | `argvus-theme-tokyo-night` | `#7AA2F7` |
 | Solitude | `argvus-theme-solitude` | `#798186` |
 | Sunset | `argvus-theme-sunset` | `#E2BE8A` |
-| Hackerman | `argvus-theme-hackerman` | `#82FB9C` |
+| Matrix | `argvus-theme-matrix` | `#82FB9C` |
 | Monokai Dark | `argvus-theme-monokai-dark` | `#78DCE8` |
 
 ## Temas claros

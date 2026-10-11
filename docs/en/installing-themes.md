@@ -39,7 +39,7 @@ To install every official theme package at once:
 sudo pacman -S argvus-themes
 ```
 
-The meta-package depends on all 19 packaged themes. Use it when you want the complete catalog available in the theme selector.
+The meta-package depends on all 20 packaged themes. Use it when you want the complete catalog available in the theme selector.
 
 ## Available packages
 
@@ -60,7 +60,7 @@ The packages below are the ones published in the `argvus-themes` repository toda
 | `argvus-theme-tokyo-night` | Tokyo Night |
 | `argvus-theme-solitude` | Solitude |
 | `argvus-theme-sunset` | Sunset |
-| `argvus-theme-hackerman` | Hackerman |
+| `argvus-theme-matrix` | Matrix |
 | `argvus-theme-monokai-dark` | Monokai Dark |
 
 **Light themes**

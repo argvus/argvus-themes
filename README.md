@@ -9,8 +9,8 @@ pacman -S argvus-themes
 ```
 
 This installs all official themes:
-- Dark themes (12): one-dark, dracula, silver-dark, slate-dark, universe, gruvbox-high-dark, gruvbox-dark, rose-pine, tokyo-night, solitude, sunset, hackerman, monokai-dark
-- Light themes (8): github-light, solarized-light, one-light, everforest-light, frost, catppuccin-latte, gruvbox-light
+- Dark themes (13): one-dark, dracula, silver-dark, slate-dark, universe, gruvbox-high-dark, gruvbox-dark, rose-pine, tokyo-night, solitude, sunset, matrix, monokai-dark
+- Light themes (7): github-light, solarized-light, one-light, everforest-light, nord-light, catppuccin-latte, gruvbox-light
 
 ## Individual Installation
 

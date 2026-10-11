@@ -39,7 +39,7 @@ Para instalar todos os pacotes de tema oficiais de uma vez:
 sudo pacman -S argvus-themes
 ```
 
-O metapacote depende dos 19 temas empacotados. Use-o quando quiser o catálogo completo disponível no seletor de temas.
+O metapacote depende dos 20 temas empacotados. Use-o quando quiser o catálogo completo disponível no seletor de temas.
 
 ## Pacotes disponíveis
 
@@ -60,7 +60,7 @@ Os pacotes abaixo são os publicados hoje no repositório `argvus-themes`.
 | `argvus-theme-tokyo-night` | Tokyo Night |
 | `argvus-theme-solitude` | Solitude |
 | `argvus-theme-sunset` | Sunset |
-| `argvus-theme-hackerman` | Hackerman |
+| `argvus-theme-matrix` | Matrix |
 | `argvus-theme-monokai-dark` | Monokai Dark |
 
 **Temas claros**

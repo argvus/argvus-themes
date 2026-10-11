@@ -1,0 +1,11 @@
+.DS_Store
+/build
+*.pkg.tar.*
+*.src.tar.*
+*.tar.gz
+packaging/arch/ci/src/
+packaging/arch/ci/pkg/
+packaging/arch/local/src/
+packaging/arch/local/pkg/
+packaging/arch/local/PKGBUILD.local
+packaging/arch/*/.PKGBUILD.local.*
