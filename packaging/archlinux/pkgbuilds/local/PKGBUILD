@@ -7,14 +7,16 @@ arch=('any')
 url="https://github.com/argvus/argvus-themes"
 license=('GPL-3.0-only')
 depends=(
-  'argvus-theme-catppuccin-latte' 'argvus-theme-dracula' 'argvus-theme-everforest-light'
-  'argvus-theme-github-light' 'argvus-theme-gruvbox-dark' 'argvus-theme-gruvbox-high-dark'
-  'argvus-theme-gruvbox-light' 'argvus-theme-lady-mist' 'argvus-theme-matrix'
+  'argvus-theme-catppuccin-latte' 'argvus-theme-celadon-light' 'argvus-theme-dracula'
+  'argvus-theme-everforest-light' 'argvus-theme-foundry-light' 'argvus-theme-github-light'
+  'argvus-theme-gruvbox-dark' 'argvus-theme-gruvbox-high-dark' 'argvus-theme-gruvbox-light'
+  'argvus-theme-iris-light' 'argvus-theme-lady-mist' 'argvus-theme-matrix'
   'argvus-theme-monokai-dark' 'argvus-theme-nord-light' 'argvus-theme-obsidian-light'
-  'argvus-theme-one-dark' 'argvus-theme-one-light' 'argvus-theme-rose-pine'
-  'argvus-theme-silver-dark' 'argvus-theme-slate-dark' 'argvus-theme-solarized-light'
-  'argvus-theme-solitude' 'argvus-theme-sunset' 'argvus-theme-tokyo-night'
-  'argvus-theme-universe' 'argvus-theme-watercolor-light'
+  'argvus-theme-one-dark' 'argvus-theme-one-light' 'argvus-theme-porcelain-light'
+  'argvus-theme-rose-pine' 'argvus-theme-saffron-light' 'argvus-theme-silver-dark'
+  'argvus-theme-slate-dark' 'argvus-theme-solarized-light' 'argvus-theme-solitude'
+  'argvus-theme-sunset' 'argvus-theme-tokyo-night' 'argvus-theme-universe'
+  'argvus-theme-watercolor-light'
 )
 options=('!debug')
 source=("${pkgname}-${pkgver}.tar.gz")

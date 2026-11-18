@@ -1,12 +1,3 @@
-<!--
-  Template repository for an ARGVUS Arch Linux package.
-
-  Before using this template, replace the placeholders and the example payload:
-  <OWNER>, <REPO>, <PKGNAME>, <PKGDESC>, the maintainer, and the license.
-  Keep the local and CI PKGBUILDs aligned; their source definitions are the
-  only intentional difference.
--->
-
 # ARGVUS Themes
 
 `argvus-themes` is an Arch Linux metapackage that installs every official ARGVUS
@@ -14,13 +5,12 @@ theme package. Install it with `sudo pacman -S argvus-themes`. ARGVUS Dark and
 ARGVUS Light are included in `argvus-appearance` and do not need separate theme
 packages.
 
-[![CI](https://github.com/<OWNER>/<REPO>/actions/workflows/ci.yml/badge.svg)](https://github.com/<OWNER>/<REPO>/actions/workflows/ci.yml)
-[![Release](https://github.com/<OWNER>/<REPO>/actions/workflows/release.yml/badge.svg)](https://github.com/<OWNER>/<REPO>/actions/workflows/release.yml)
+[![CI](https://github.com/argvus/argvus-themes/actions/workflows/ci.yml/badge.svg)](https://github.com/argvus/argvus-themes/actions/workflows/ci.yml)
+[![Release](https://github.com/argvus/argvus-themes/actions/workflows/release.yml/badge.svg)](https://github.com/argvus/argvus-themes/actions/workflows/release.yml)
 [![License](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](LICENSE)
 
-This repository is a starting point for an Arch Linux package. Replace the
-`src/` example with the files owned by the package and update both PKGBUILDs,
-the workflows, metadata, and documentation before publishing it.
+The local and remote PKGBUILDs list the official theme packages as dependencies.
+Update both lists when adding an official theme.
 
 ## Build and install
 
