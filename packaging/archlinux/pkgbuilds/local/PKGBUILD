@@ -7,7 +7,7 @@ arch=('any')
 url="https://github.com/argvus/argvus-themes"
 license=('GPL-3.0-only')
 depends=(
-  'argvus-theme-amelie-light'
+  'argvus-theme-amelie-dark' 'argvus-theme-amelie-light'
   'argvus-theme-catppuccin-latte' 'argvus-theme-celadon-light' 'argvus-theme-dracula'
   'argvus-theme-everforest-light' 'argvus-theme-foundry-light' 'argvus-theme-github-light'
   'argvus-theme-gruvbox-dark' 'argvus-theme-gruvbox-high-dark' 'argvus-theme-gruvbox-light'
@@ -17,7 +17,7 @@ depends=(
   'argvus-theme-rose-pine' 'argvus-theme-saffron-light' 'argvus-theme-silver-dark'
   'argvus-theme-slate-dark' 'argvus-theme-solarized-light' 'argvus-theme-solitude'
   'argvus-theme-sunset' 'argvus-theme-tokyo-night' 'argvus-theme-universe'
-  'argvus-theme-watercolor-light'
+  'argvus-theme-watercolor-light argvus-theme-amelie-dark'
 )
 options=('!debug')
 source=("${pkgname}-${pkgver}.tar.gz")
